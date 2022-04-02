@@ -1,1 +1,96 @@
+/* ----Common styles---- */
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #cccccc;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4 {
+  font-family: brothers, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+p {
+  font-family: Montserrat, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.btn-sml {
+  background: transparent;
+  border-color: #856b39;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: #856b39;
+  cursor: pointer;
+  transition: all 0.5s linear;
+  border-radius: 0;
+  border-style: solid;
+  border-width: 0.06vw;
+}
+.btn-sml:hover {
+  background: #856b39;
+  color: black;
+}
+
+/* ----------MOBILE----------- */
+
+/*--------- MENU PAGE -------*/
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.btn-sml-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-img {
+  height: 400px;
+  margin: 1vw;
+}
+
+.price {
+  color: #856b39;
+}
+
+.hovtxt {
+  background: #000000c4;
+  opacity: 0;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hovtxt:hover {
+  opacity: 1;
+}
+
+/* -------TABLET-------- */
+@media screen and (min-width: 768px) {
+  /*------- MENU PAGE-------*/
+}
+
+/* -----DESKTOP------- */
+@media screen and (min-width: 1200px) {
+  /*------- MENU PAGE-------*/
+}
