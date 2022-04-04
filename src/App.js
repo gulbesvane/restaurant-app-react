@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Menu from './views/Menu'
+import About from './views/About'
+import Contact from './views/Contact'
 
 
 function App() {
@@ -9,20 +11,14 @@ function App() {
     <Router>
       <div>
         {/* <Navbar/> */}
-        <Switch>
+        <Routes>
           {/* <Route exact path="/">
             <Home/>
           </Route> */}
-          {/* <Route path="/about">
-            <About/>
-          </Route> */}
-          <Route path="/menu">
-            <Menu/>
-          </Route>
-          {/* <Route path="/contact">
-            <Contact/>
-          </Route> */}
-        </Switch>
+          <Route path="/about" element={<About />} />
+          <Route path="/menu" element={<Menu/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+        </Routes>
         {/* <Footer/> */}
       </div>
     </Router>
