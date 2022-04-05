@@ -15,18 +15,20 @@ function Navbar() {
       <div>
         <FontAwesomeIcon className="starIcon" icon={faStar} />
       </div>
-      <Link className="navItems" to="/">
-        Home
-      </Link>
-      <Link className="navItems" to="/menu">
-        Menu
-      </Link>
-      <Link className="navItems" to="/about">
-        About
-      </Link>
-      <Link className="navItems" to="/contact">
-        Contact
-      </Link>
+      <div className="navItems">
+        <Link className="navItem" to="/">
+          Home
+        </Link>
+        <Link className="navItem" to="/menu">
+          Menu
+        </Link>
+        <Link className="navItem" to="/about">
+          About
+        </Link>
+        <Link className="navItem" to="/contact">
+          Contact
+        </Link>
+      </div>
       <div className="socialmediaIcons">
         <a href="https://google.com" target="_blank">
           <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
