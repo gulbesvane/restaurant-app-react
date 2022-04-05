@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Menu from './views/Menu'
 
 
@@ -9,20 +9,18 @@ function App() {
     <Router>
       <div>
         {/* <Navbar/> */}
-        <Switch>
+        <Routes>
           {/* <Route exact path="/">
             <Home/>
           </Route> */}
           {/* <Route path="/about">
             <About/>
           </Route> */}
-          <Route path="/menu">
-            <Menu/>
-          </Route>
+          <Route path="/menu" element={<Menu/>}/>
           {/* <Route path="/contact">
             <Contact/>
           </Route> */}
-        </Switch>
+        </Routes>
         {/* <Footer/> */}
       </div>
     </Router>

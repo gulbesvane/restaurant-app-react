@@ -8,29 +8,30 @@ const MenuItems = ({ items }) => {
             {items.map((menuItem) => {
                 const { id, title, img, price, desc } = menuItem
                 return (
-                    <div key={id} className="col-lg-4 col-md-6 item-box">
-                        <div className="menu-img" style={{backgroundImage: `url(${img})`}}>
-                            <div className="hovtxt">
-                                <div className="menu-item-txt">
-                                    <h3>{title}</h3>
-                                    <h4 className="price">${price}</h4>
-                                    <p className="item-text">{desc}</p>
-                                    <Provider
-  apiKey="acc0dbccce8e557db5ebbe6d605aaa"
-  theme={{
-    colors: {
-      background: "#b8fff3",
-      text: "violet",
-      primary: "rgba(255, 224, 138, 0.4)"
-    }
-  }}
->
-  <LikeButton
-    namespace="my-blog-post"
-    id="how-to-beat-me-at-chess"
-  />
-</Provider>
-                                </div>
+                    <div key={id} className="col-lg-4 col-md-6 item-container">
+                        <img src={img} className="item-img"/>
+                        <div className="overlay">
+                            <div className="overlay-content">
+                                <h3>{title}</h3>
+                                <h4 className="price">${price}</h4>
+                                <p className="item-text">{desc}</p>
+                                <Provider
+                                    apiKey="pt_75600e9379c50f115465ee7010d3ba"
+                                    theme={{
+                                        colors: {
+                                        background: "#856B39",
+                                        text: "#cccccc",
+                                        primary: "#856B39",
+                                        highlight: "#e3a737",
+                                        icon: "#cccccc"
+                                        }
+                                    }}
+                                        >
+                                    <LikeButton
+                                        namespace="my-blog-post"
+                                        id="how-to-beat-me-at-chess"
+                                    />
+                                </Provider>
                             </div>
                         </div>
                     </div>
