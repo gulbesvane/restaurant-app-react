@@ -1,8 +1,17 @@
 import React from 'react'; 
+import Locations from '../components/Locations';
 
-function Contact(){
+function Contact(){ 
+
     return (
-        <div>CONTACT</div>
+        <main>
+            <section>
+                <div className="title">
+                    <h2>contact</h2>
+                </div>
+                <Locations/>
+            </section>
+        </main>
     )
 }
 
