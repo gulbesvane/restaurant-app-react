@@ -261,3 +261,27 @@ p {
     text-align: left;
   }
 }
+
+/* ----- CONTACT FORM------- */
+
+.form-group{
+  padding-bottom: 2vw;
+  font-weight: bold;
+}
+
+.form-input-error{
+  color: #940418;
+  font-size: 12px;
+}
+
+.form-input-field{
+  
+}
+
+.form-input invalid{
+
+}; 
+
+.form-input{
+
+}
