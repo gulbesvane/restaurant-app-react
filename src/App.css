@@ -262,6 +262,39 @@ p {
   }
 }
 
+/* ----- ABOUT ------- */
+
+.about{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  align-items: center; 
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutimg{
+  width: 100%;
+  height: auto; 
+  opacity: 0.3;
+  border-radius: 8px;
+}
+
+.apply-btn-link{
+  color: #ad9a74; 
+}
+
+.apply-btn-link:hover{
+  color: black; 
+}
+
 /* ----- CONTACT FORM------- */
 
 .form-group{
