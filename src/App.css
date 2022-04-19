@@ -152,6 +152,11 @@ p {
   font-size: 22px;
   padding: 20px;
 }
+.bottomtextWrap {
+  font-size: 22px;
+  padding: 20px;
+  margin-top: 100px;
+}
 
 .footer {
   display: flex;
@@ -171,7 +176,6 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
 
 /* Style the links inside the navigation bar */
@@ -256,4 +260,61 @@ p {
     width: 100%;
     text-align: left;
   }
+}
+
+/* ----- ABOUT ------- */
+
+.about{
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  align-items: center; 
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutimg{
+  width: 100%;
+  height: auto; 
+  opacity: 0.3;
+  border-radius: 8px;
+}
+
+.apply-btn-link{
+  color: #ad9a74; 
+}
+
+.apply-btn-link:hover{
+  color: black; 
+}
+
+/* ----- CONTACT FORM------- */
+
+.form-group{
+  padding-bottom: 2vw;
+  font-weight: bold;
+}
+
+.form-input-error{
+  color: #940418;
+  font-size: 12px;
+}
+
+.form-input-field{
+  
+}
+
+.form-input invalid{
+
+}; 
+
+.form-input{
+
 }

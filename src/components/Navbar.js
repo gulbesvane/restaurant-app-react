@@ -8,12 +8,16 @@ import {
   faYelp,
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
+import logo3 from "../Images/small_logo.jpg";
 
 function Navbar() {
   return (
     <div className="topnav" id="myTopnav">
       <div>
         <FontAwesomeIcon className="starIcon" icon={faStar} />
+      </div>
+      <div>
+        <img src={logo3} />
       </div>
       <div className="navItems">
         <Link className="navItem" to="/">
