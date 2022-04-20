@@ -16,6 +16,7 @@ const MenuItem = ({ allItems }) => {
                                 <h3>{singleItem.title}</h3>
                                 <h4 className="price">£{singleItem.price}</h4>
                                 <p className="item-text">{singleItem.desc}</p>
+                                {/* add like button to each item using Lyket library and API */}
                                 <Provider
                                     apiKey="pt_75600e9379c50f115465ee7010d3ba"
                                     theme={{
@@ -29,7 +30,8 @@ const MenuItem = ({ allItems }) => {
                                     }}
                                         >
                                     <LikeButton
-                                        namespace="my-blog-post"
+                                        // each button has name and id added
+                                        namespace={singleItem.id}
                                         id={singleItem.id}
                                     />
                                 </Provider>
