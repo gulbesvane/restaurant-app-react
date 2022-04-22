@@ -10,7 +10,7 @@ const MenuItem = ({ allItems }) => {
             {allItems.map((singleItem) => {
                 return (
                     <div key={singleItem.id} className="col-lg-4 col-md-6 item-container">
-                        <img src={singleItem.img} alt={singleItem.title} className="item-img"/>
+                        <img className={singleItem.category + " " + "item-img"} src={singleItem.img} alt={singleItem.category}/>
                         <div className="overlay">
                             <div className="overlay-content">
                                 <h3>{singleItem.title}</h3>
