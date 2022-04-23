@@ -3,17 +3,22 @@ import logo from "../Images/1.jpg";
 import logo2 from "../Images/3.jpg";
 import logo3 from "../Images/small_logo.jpg";
 
+// configurated page layout with pics and text
+
 function Home() {
   return (
     <div>
+      {/* added fist food pic */}
       <div className="imageWrap">
         <div>
           <img src={logo} />
         </div>
         <div className="textWrap">
+          {/* added website logo */}
           <div>
             <img src={logo3} />
           </div>
+          {/* added welcome message */}
           <div>
             <h2>Welcome to Burger House... </h2>
 
@@ -29,11 +34,13 @@ function Home() {
               use frozen meat.
             </p>
           </div>
+          {/* added second food pic */}
           <div>
             <img src={logo2} />
           </div>
         </div>
       </div>
+      {/* added bottom text*/}
       <div className="bottomtextWrap">
         <h2>Burger House was established in 2022... </h2>
         <p>

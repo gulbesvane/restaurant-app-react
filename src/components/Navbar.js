@@ -10,15 +10,25 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import logo3 from "../Images/small_logo.jpg";
 
+// created function that would return footer content logo + text
+
 function Navbar() {
   return (
     <div className="topnav" id="myTopnav">
+      {/* using fontawsome added the website smaller logo, the star */}
+
       <div>
         <FontAwesomeIcon className="starIcon" icon={faStar} />
       </div>
+
+      {/* added website main logo*/}
+
       <div>
         <img src={logo3} />
       </div>
+
+      {/* done pathing for the butons */}
+
       <div className="navItems">
         <Link className="navItem" to="/">
           Home
@@ -33,6 +43,10 @@ function Navbar() {
           Contact
         </Link>
       </div>
+
+      {/* using fontawsome added the social media logos and set correct path to websites */}
+      {/*once clicked a new page will open */}
+
       <div className="socialmediaIcons">
         <a href="https://google.com" target="_blank">
           <FontAwesomeIcon className="socialIcon" icon={faFacebook} />
