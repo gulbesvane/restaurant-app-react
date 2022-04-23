@@ -1,5 +1,4 @@
 import React from 'react'; 
-import { Link, Route } from "react-router-dom";
 import Ourppl from '../components/Ourppl';
 import storyimg from '../Images/our-story.jpg'; 
 import promiseimg from '../Images/our-promise.jpg'; 
@@ -12,7 +11,7 @@ function About(){
                     <h2>about us</h2>
                 </div>
             </main>
-            
+            {/*Text over image*/}            
             <section>
                 <div className="container">
 		            <div className="row about">
@@ -29,7 +28,7 @@ function About(){
 		            </div>
 	            </div>
             </section>
-
+            {/*Text over image*/}
             <section>
                 <div className="container">
 		            <div className="row about">
@@ -46,7 +45,7 @@ function About(){
 		            </div>
 	            </div>
             </section>
-
+            {/*Creating section with an element containing Bootstrap Carousel*/}
             <section>
                 <div className="container">
                     <div className="row about">
@@ -57,7 +56,7 @@ function About(){
 		            </div>
 	            </div>
             </section>
-
+            {/*Button linking to the Contact page*/}
             <section>
                 <div className="container about">
                     <div>
@@ -71,7 +70,7 @@ function About(){
                     </div>
                 </div>
             </section>
-
+            {/*Reviews placeholder*/}
             <section>
                 <div className="container">
                     <div className="row about">

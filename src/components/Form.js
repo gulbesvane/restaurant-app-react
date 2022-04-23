@@ -72,7 +72,7 @@ function Form() {
       if (!nameInputValid && !emailInputValid && !messageInputValid) {
         return; 
       }
-
+      //logging the message in the console as if it was sent
       console.log(nameInput); 
       console.log(emailInput);
       console.log(messageInput);
@@ -93,7 +93,7 @@ function Form() {
     ? 'form-input invalid'
     : 'form-input'; 
 
-  //form
+  //form with functions and error messages when field requirements are not met
   return (
     <div>
       <h4>We want to hear from you:</h4>

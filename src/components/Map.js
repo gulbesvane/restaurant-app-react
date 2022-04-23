@@ -1,6 +1,4 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
-import { propTypes } from "react-bootstrap/esm/Image";
 
 function Map() {
   return (
@@ -10,9 +8,9 @@ function Map() {
         height="100%"
         className="map"
         style={{ border: 0 }}
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
   );
 }

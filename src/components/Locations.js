@@ -4,9 +4,10 @@ import SingleLocation from './SingleLocation'
 import {locationDetails} from '../locationDetails';
 
 function Locations(props){  
-  
+  //set default location on render
   const [locationChange, setLocation] = useState(<SingleLocation city={locationDetails[0].city} address={locationDetails[0].address}/>);
 
+  //pass props to SingleLocation.js from locationDetails.js data
   function setDublin(e){
     e.preventDefault()
     setLocation(
@@ -43,6 +44,7 @@ function Locations(props){
     )
   }
 
+  //display buttons that will trigger functions with data for different locations
   return (
     <div className="container">
       <div className="row">
@@ -54,6 +56,7 @@ function Locations(props){
         </div>
       </div>
       <div>
+      {/*display new data after click*/}
       {locationChange}
       </div>
     </div>

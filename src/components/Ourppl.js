@@ -11,6 +11,7 @@ function Ourppl() {
     <div>
 		  <div className="row about">
         <div className="col-lg-9">
+        {/*Using imported Boostrap component with pictures and captions*/}
             <Carousel>
 
               <Carousel.Item>
