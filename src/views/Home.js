@@ -14,19 +14,21 @@ function Home() {
           <div>
             <img src={logo3} />
           </div>
-          <h2>Welcome to Burger House... </h2>
-          <p>
-            Burger House is a neighbourhood diner, where you can get Real
-            Gourmet Irish Burgers!{" "}
-          </p>
-          <p>
-            All beef burgers are 7oz ( 200g ) patties made from top quality
-            prime young Heifer meat under 24 months old supplied by a Master
-            Butcher. 100% Irish and fully traceable. 100% Irish Bord Bia quality
-            assured Chicken born & reared in the Glin Valley. We NEVER use
-            frozen meat.
-          </p>
+          <div>
+            <h2>Welcome to Burger House... </h2>
 
+            <p>
+              Burger House is a neighbourhood diner, where you can get Real
+              Gourmet Irish Burgers!{" "}
+            </p>
+            <p>
+              All beef burgers are 7oz ( 200g ) patties made from top quality
+              prime young Heifer meat under 24 months old supplied by a Master
+              Butcher. 100% Irish and fully traceable. 100% Irish Bord Bia
+              quality assured Chicken born & reared in the Glin Valley. We NEVER
+              use frozen meat.
+            </p>
+          </div>
           <div>
             <img src={logo2} />
           </div>
