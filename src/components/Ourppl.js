@@ -1,7 +1,5 @@
 import React from 'react'; 
 import Carousel from 'react-bootstrap/Carousel'; 
-import storyimg from "../Images/our-story.jpg"; 
-import promiseimg from '../Images/our-promise.jpg'; 
 import ourppl1 from '../Images/ourppl-4.jpg'
 import ourppl2 from '../Images/ourppl-5.jpg'
 import ourppl3 from '../Images/ourppl-7.jpg'

@@ -1,9 +1,9 @@
 import React from 'react'; 
 import { Link } from "react-router-dom";
 import Ourppl from '../components/Ourppl';
-import Reviews from '../components/Reviews';
 import storyimg from '../Images/our-story.jpg'; 
 import promiseimg from '../Images/our-promise.jpg'; 
+import NewReviews from '../components/NewReviews';
 
 function About(){
     return (
@@ -18,11 +18,11 @@ function About(){
                 <div className="container">
 		            <div className="row about">
                         <div className="col-lg-9">
-				            <img className="img-fluid aboutimg" src={storyimg} alt="Our Story image" />
+				            <img className="img-fluid aboutimg" src={storyimg} alt="A piece of meat in barbecue fire." />
                             <div className="centered">
                             <h2>Our Story</h2>
-                            <p>
-                            Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. Maecenas ac metus molestie, vulputate tortor ac, sodales lacus.
+                            <p className="txtoverimg">
+                            Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. 
                             </p>
                             </div>
 			            </div>
@@ -35,11 +35,11 @@ function About(){
                 <div className="container">
 		            <div className="row about">
                         <div className="col-lg-9">
-				            <img className="img-fluid aboutimg" src={promiseimg} alt="Our Promise image" />
+				            <img className="img-fluid aboutimg" src={promiseimg} alt="Cook's hands in black gloves with a raw hambrger." />
                             <div className="centered">
                             <h2>Our Promise</h2>
-                            <p>
-                            Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. Maecenas ac metus molestie, vulputate tortor ac, sodales lacus.
+                            <p className="txtoverimg">
+                            Pellentesque in neque felis. Cras nibh nisl, condimentum ac pretium vitae, accumsan id elit. Suspendisse varius felis eu accumsan pharetra. Vestibulum gravida nec est ac suscipit. Mauris hendrerit eu mauris a sodales. Integer vitae auctor elit. Fusce consequat vulputate lacus a porta. 
                             </p>
                             </div>
 			            </div>
@@ -76,7 +76,7 @@ function About(){
                     <div className="row about">
                         <div className="col-lg-12">
                             <h3>Our Clients say:</h3>
-                            <Reviews/>
+
 			            </div>
 		            </div>
 	            </div>
