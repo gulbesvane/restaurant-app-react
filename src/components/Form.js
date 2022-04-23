@@ -137,7 +137,7 @@ function Form() {
           <div className='form-group'>
               <label>Message* </label><br/>
               <textarea  
-                className='form-input-field'
+                className='form-input-field msg-field'
                 type='text' 
                 id='text'
                 name='text'
@@ -151,7 +151,7 @@ function Form() {
           </div>
           
         </div>
-        <button type='submit' className="btn-sml">Send!</button>
+        <button type='submit' className="btn-sml btn-msg">Send!</button>
       </form>
     </div>
   )
