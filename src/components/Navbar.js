@@ -27,7 +27,7 @@ function Navbar() {
         <img src={logo3} />
       </div>
 
-      {/* done pathing for the butons */}
+      {/* done pathing for the links */}
 
       <div className="navItems">
         <Link className="navItem" to="/">
