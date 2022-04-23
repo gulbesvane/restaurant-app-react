@@ -176,6 +176,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 /* Style the links inside the navigation bar */
@@ -294,6 +295,27 @@ p {
 .apply-btn-link:hover{
   color: black; 
 }
+/* ----- ABOUT MOBILE FOLDABLE ------- */
+@media(max-width: 300px){
+  .txtoverimg{
+    font-size: 8px
+  } 
+}
+
+/* ----- ABOUT MOBILE ------- */
+@media(min-width: 301px){
+  .txtoverimg{
+    font-size: 12px
+  } 
+}
+
+/* ----- ABOUT TABLET ------- */
+@media(min-width: 600px){
+  .txtoverimg{
+    font-size: 18px
+  } 
+}
+
 
 /* ----- CONTACT FORM------- */
 
@@ -308,7 +330,17 @@ p {
 }
 
 .form-input-field{
-  
+  width: 100%; 
+  height: fit-content
+}
+
+.msg-field{
+  height: 120px
+}
+
+.btn-msg{
+  width: 100%;
+  margin: 0
 }
 
 .form-input invalid{

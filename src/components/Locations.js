@@ -1,33 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
-import SingleLocation from './SingleLocation';
+import {useState} from 'react'
+import SingleLocation from './SingleLocation'
+import {locationDetails} from '../locationDetails';
 
-function Locations(props){
-
-  const [locationChange, setLocation] = useState(); 
+function Locations(props){  
   
-  const locationDetails = [
-    {
-        id: 'l1', 
-        city: 'Dublin', 
-        address: 'Address for Dublin'
-    }, 
-    {
-        id: 'l2', 
-        city: 'Galway', 
-        address: 'Address for Galway'
-    }, 
-    {
-        id: 'l3', 
-        city: 'Cork', 
-        address: 'Address for Cork'
-    }, 
-    {
-        id: 'l4', 
-        city: 'Sligo', 
-        address: 'Address for Sligo'
-    }
-]
+  const [locationChange, setLocation] = useState(<SingleLocation city={locationDetails[0].city} address={locationDetails[0].address}/>);
 
   function setDublin(e){
     e.preventDefault()
