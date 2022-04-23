@@ -4,7 +4,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
@@ -12,7 +12,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
@@ -20,7 +20,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
@@ -28,7 +28,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
@@ -36,7 +36,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
@@ -44,7 +44,7 @@ const menu = [
     title: "house special",
     category: "burgers",
     price: 12.15,
-    img: require("./Images/Burger1.jpg"),
+    img: require("./Images/burger1.jpg"),
     desc: `Bacon, cheese, pickles, tomato, lettuce, egg`,
   },
   {
