@@ -1,9 +1,8 @@
 import React from 'react'; 
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import Ourppl from '../components/Ourppl';
 import storyimg from '../Images/our-story.jpg'; 
 import promiseimg from '../Images/our-promise.jpg'; 
-import NewReviews from '../components/NewReviews';
 
 function About(){
     return (
@@ -62,11 +61,13 @@ function About(){
             <section>
                 <div className="container about">
                     <div>
-                        <button className='btn-sml'>
-                        <Link className='apply-btn-link' to="/contact">
-                        Wanna join our Team?<br/>Contact us!
-                        </Link>
-                        </button>
+                        <a href="/contact">
+                            <button className='btn-sml apply-btn-link'>
+                                Wanna join our Team?
+                                <br/>
+                                Contact us!
+                            </button>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -76,7 +77,7 @@ function About(){
                     <div className="row about">
                         <div className="col-lg-12">
                             <h3>Our Clients say:</h3>
-
+                            
 			            </div>
 		            </div>
 	            </div>
