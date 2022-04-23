@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../Images/Logo_burger.jpg";
 
+// created function that would return footer content logo + text
 function Footer() {
   return (
     <div className="footer">
