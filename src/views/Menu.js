@@ -11,7 +11,7 @@ function Menu(){
       // set variable menuItems to the value coming from data set
       const [menuItems, setMenuItems] = useState(data)
       // set categories variable to allCategories
-      const [categories] = useState(allCategories)
+      //const [categories] = useState(allCategories)
     
       // create function to filter items
       const filter = (category) => {
@@ -31,7 +31,7 @@ function Menu(){
               <h2>menu</h2>
             </div>
             {/* pass categories and filterItems as props to the Categories */}
-            <Categories categories={categories} filter={filter} />
+            <Categories categories={allCategories} filter={filter} />
             {/* pass menuItems as props allItems into MenuItem.js */}
             <MenuItem allItems={menuItems} />
           </section>
