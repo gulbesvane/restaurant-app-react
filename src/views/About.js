@@ -69,19 +69,7 @@ function About(){
                         </a>
                     </div>
                 </div>
-            </section>
-            {/*Reviews placeholder*/}
-            <section>
-                <div className="container">
-                    <div className="row about">
-                        <div className="col-lg-12">
-                            <h3>Our Clients say:</h3>
-                            
-			            </div>
-		            </div>
-	            </div>
-            </section>
-            
+            </section>           
         </div>
     )
 }
