@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/restaurant-app-react/static/css/main.f7ed1cfe.css",
+    "main.js": "/restaurant-app-react/static/js/main.50944fa4.js",
+    "static/js/377.5c89e847.chunk.js": "/restaurant-app-react/static/js/377.5c89e847.chunk.js",
+    "static/media/3.jpg": "/restaurant-app-react/static/media/3.aba900870b4a54e04624.jpg",
+    "static/media/1.jpg": "/restaurant-app-react/static/media/1.afe520e7fa7270d9f954.jpg",
+    "static/media/our-promise.jpg": "/restaurant-app-react/static/media/our-promise.a48bafc0205f7c75864f.jpg",
+    "static/media/dessert1.jpg": "/restaurant-app-react/static/media/dessert1.46e20b1a9e22c70c80e9.jpg",
+    "static/media/side1.jpg": "/restaurant-app-react/static/media/side1.56fff11d8dc5f38c906b.jpg",
+    "static/media/our-story.jpg": "/restaurant-app-react/static/media/our-story.0b4221d3f481ccc9d8ee.jpg",
+    "static/media/ourppl-9.jpg": "/restaurant-app-react/static/media/ourppl-9.6ec9b32c25a758d20a38.jpg",
+    "static/media/ourppl-7.jpg": "/restaurant-app-react/static/media/ourppl-7.6d3c218bbd40dfe150b8.jpg",
+    "static/media/burger1.jpg": "/restaurant-app-react/static/media/burger1.fe6b9a189c51e3f5379d.jpg",
+    "static/media/ourppl-5.jpg": "/restaurant-app-react/static/media/ourppl-5.d57824d525b27fe3d2f7.jpg",
+    "static/media/ourppl-4.jpg": "/restaurant-app-react/static/media/ourppl-4.91dc5746425fa9678e00.jpg",
+    "service-worker.js": "/restaurant-app-react/service-worker.js",
+    "static/media/drink1.jpg": "/restaurant-app-react/static/media/drink1.3fa0e2eb21f5f17d278d.jpg",
+    "static/media/Logo_burger.jpg": "/restaurant-app-react/static/media/Logo_burger.18a8c89d799969453a90.jpg",
+    "index.html": "/restaurant-app-react/index.html",
+    "main.f7ed1cfe.css.map": "/restaurant-app-react/static/css/main.f7ed1cfe.css.map",
+    "main.50944fa4.js.map": "/restaurant-app-react/static/js/main.50944fa4.js.map",
+    "377.5c89e847.chunk.js.map": "/restaurant-app-react/static/js/377.5c89e847.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7ed1cfe.css",
+    "static/js/main.50944fa4.js"
+  ]
+}
